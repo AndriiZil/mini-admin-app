@@ -1,0 +1,20 @@
+{
+  "title": "register new user",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "password": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    }
+  },
+  "required": [
+    "email",
+    "password"
+  ]
+}
